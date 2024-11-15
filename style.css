@@ -10,28 +10,32 @@ body{
     align-items: center;
     justify-content: center;
 }
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 25px 25px 25px;
+    color: aqua;
+}
 
 .container{
-    display: flex;
-    align-items: center;
     padding: 25px;
-    justify-content:center ;
     border-radius: 10px;
     background-color: #3a4452;
     color: white;
-    margin-top: 200px;
+    margin-top: 80px;
     min-width: 0px
     
 }
 .display input{
     padding: 10px;
     text-align: right;
-    width: 330px;
+    width: 315px;
     font-size: 35px;
     margin-bottom: 20px;
     border: none;
     outline: none;
     border-radius: 10px;
+    padding-right: 15px;
 }
 .container button{
     height: 70px;
@@ -44,5 +48,6 @@ body{
 }
 #equalTo{
     width: 45%;
+    background-color: #ffb300;
 }
 
