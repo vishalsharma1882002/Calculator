@@ -44,11 +44,24 @@ h2{
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px  15px rgba(0, 0, 0, 0.3);
     font-size: 25px;
     background: none;
-    color: white;
     cursor: pointer;
+    border-radius: 5px;
 }
 #equalTo{
     width: 45%;
     background-color: #ffb300;
 }
-
+.operator{
+    color: aqua;
+}
+.numbers,#dot{
+    color: white;
+}
+#allClear{
+    color: black;
+    background-color: red;
+}
+#del{
+    color: black;
+    background-color: grey;
+}
