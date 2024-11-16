@@ -45,6 +45,7 @@ h2{
     font-size: 25px;
     background: none;
     color: white;
+    cursor: pointer;
 }
 #equalTo{
     width: 45%;
